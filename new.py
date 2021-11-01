@@ -1,8 +1,6 @@
-import os
-
-
-readme = root / "README.md"
-readme_contents = readme.open().read()
-
-rewritten = "Test completed !"
-readme.open("w").write(rewritten * 10)
+if __name__ == "__main__":
+    readme = root / "README.md"
+    
+    rewritten = "Problem with the extra spaces and then send you the"
+    
+    readme.open("w").write(rewritten)
