@@ -1,8 +1,11 @@
 import os
+from datetime import datetime
+
+now = datetime.now()
 
 if __name__ == "__main__":
-    readme = "README.md"
-    
-    rewritten = "Problem with the extra spaces and then send you the"
-    
-    readme.open("w").write(rewritten)
+    readme = "/README.md"
+    current_time = now.strftime("%H:%M:%S")
+    name = "hi.txt"
+    with open(name, 'w') as f:
+        f.write(current_time)
