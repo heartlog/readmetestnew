@@ -13,6 +13,4 @@ jobs:
       with:
         python-version: 3.8
     - name: Update README
-      run: |-
-        python new.py
-        cat README.md
+      run: python new.py
