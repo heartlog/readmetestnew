@@ -1,7 +1,7 @@
 import os
 
 if __name__ == "__main__":
-    readme = root / "README.md"
+    readme = "README.md"
     
     rewritten = "Problem with the extra spaces and then send you the"
     
